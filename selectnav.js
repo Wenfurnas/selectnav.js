@@ -12,19 +12,7 @@ window.selectnav = (function(){
 
     element = document.getElementById(element);
 
-    // return immediately if element doesn't exist
-    if( ! element){
-      return;
-    }
-
-    // return immediately if element is not a list
-    if( ! islist(element) ){
-      return;
-    }
-
-    // return immediately if no support for insertAdjacentHTML (Firefox 7 and under)
-    if( ! ('insertAdjacentHTML' in window.document.documentElement) ){
-      return;
+  
     }
 
     // add a js class to <html> tag
